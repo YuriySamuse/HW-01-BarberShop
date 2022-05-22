@@ -5,154 +5,195 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="">
+    <header class="heder">
+        <a href="" class="heder-logo">
             <img src="./img/Logo.svg" alt="Лого сайта">
         </a>
-        <nav>
-            <ul>
-                <li><a href="">О нас</a></li>
-                <li><a href=""> Услуги и цены</a></li>
-                <li><a href=""> Мастера</a></li>
-                <li><a href=""> Контакты</a></li>
+        <nav class="heder-nav">
+            <ul class="heder-list">
+                <li class="heder-item"><a class="heder-link" href="">О нас</a></li>
+                <li class="heder-item"><a class="heder-link" href=""> Услуги и цены</a></li>
+                <li class="heder-item"><a class="heder-link" href=""> Мастера</a></li>
+                <li class="heder-item"><a class="heder-link" href=""> Контакты</a></li>
             </ul>
         </nav>
-        <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
-        <button type="button">Онлайн-запись</Button>
+        <a class="heder-tel" href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
+        <button class="heder-btn" type="button">Онлайн-запись</Button>
     </header>
     <main>
         <!-- Главная секция -->
-        <section>
-            <ul>
-                <li><a href="" target="_blank" rel="noopener nofollow noreferrer">Instagram</a></li>
-                <li><a href="" target="_blank" rel="noopener nofollow noreferrer">Youtube</a></li>
+        <section class="hero">
+            <ul class="hero-list">
+                <li class="hero-item"><a class="hero-link" href="" target="_blank" rel="noopener nofollow noreferrer">Instagram</a></li>
+                <li class="hero-item"><a class="hero-link" href="" target="_blank" rel="noopener nofollow noreferrer">Youtube</a></li>
             </ul>
-            <p lang="en">A hair salon for men in Kyiv</p>
-            <h1 lang="en">BarberShop</h1>
-            <p>Мы эксперты в модных мужских стрижках.
+            <p lang="en" class="hero-top-text">A hair salon for men in Kyiv</p>
+            <h1 lang="en" class="hero-title">BarberShop</h1>
+            <p class="hero-bottom-text">Мы эксперты в модных мужских стрижках.
             Работаем быстро, осторожно и со вкусом.</p>
         </section>
         <!-- О нас -->
-        <section>
-            <ul>
-                <li><img src="./img/img 1-min.jpg" alt="барбер бреет бороду" width="270" height="445"/></li>
-                <li><img src="./img/img 2-min.jpg" alt="барбер делает оконтовку" width="270" height="445"/></li>
+        <section class="about">
+            <ul class="about-list">
+                <li class="about-item">
+                    <img 
+                    src="./img/img 1-min.jpg" 
+                    alt="барбер бреет бороду" 
+                    width="270" 
+                    height="445"
+                    />
+                </li>
+                <li class="about-item">
+                    <img 
+                    src="./img/img 2-min.jpg" 
+                    alt="барбер делает оконтовку" 
+                    width="270" 
+                    height="445"
+                    />
+                </li>
             </ul>
-            <p>О нас</p>
-            <h2>Лучший Барбершоп твоего города</h2>
-            <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-            <p>Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+            <p class="about-top-text">О нас</p>
+            <h2 class="about-title">Лучший Барбершоп твоего города</h2>
+            <p class="about-bottom-text">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+            <p class="about-text">Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки нашего мастера,
                 то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы 
                 усовершенствовать каждого, кто к нам приходит!</p>
-            <button type="button">Онлайн-запись</button>
+            <button type="button" class="about-btn">Онлайн-запись</button>
         </section>
         <!-- Услуги и цены -->
-        <section>
-            <p>Проведи время в компании лучших мастеров</p>
-            <h2>Услуги и цены</h2>
-            <ul>
-                <li>
-                    <p>Мужская стрижка</p>
-                    <p>от 300 грн.</p>
+        <section class="prices">
+            <p class="prices-top-text">Проведи время в компании лучших мастеров</p>
+            <h2 class="prices-title">Услуги и цены</h2>
+            <ul class="prices-list">
+                <li class="prices-item">
+                    <p class="price-item-text">Мужская стрижка</p>
+                    <p class="price-item-text">от 300 грн.</p>
                 </li>
-                <li>
-                    <p>Стрижка бороды</p>
-                    <p>от 200 грн.</p>
+                <li class="prices-item">
+                    <p class="price-item-text">Стрижка бороды</p>
+                    <p class="price-item-text">от 200 грн.</p>
                 </li>
-                <li>
-                    <p>Стрижка усов</p>
-                    <p>от 200 грн.</p>
+                <li class="prices-item">
+                    <p class="price-item-text">Стрижка усов</p>
+                    <p class="price-item-text">от 200 грн.</p>
                 </li>
-                <li>
-                    <p>Бритье опасной бритвой</p>
-                    <p>от 200 грн.</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <p>Cтрижка у стажера</p>
-                    <p>от 50 грн.</p>
-                </li>
-                <li>
-                    <p>Стрижка под насадку</p>
-                    <p>от 200 грн.</p>
-                </li>
-                <li>
-                    <p>Детская стрижка (до 12 лет)</p>
-                    <p>от 300 грн.</p>
-                </li>
-                <li>
-                    <p>Камуфлирование седины</p>
-                    <p>от 200 грн.</p>
+                <li class="prices-item">
+                    <p class="price-item-text">Бритье опасной бритвой</p>
+                    <p class="price-item-text">от 200 грн.</p>
                 </li>
             </ul>
-            <button type="button">онлайн-запись</button>
-            <!-- Почему приходят именно к нам? -->
-            <section>
-                <ul>
-                    <li>
-                        <span>600</span>
-                        <p>Довольных клиентов в день</p>
-                    </li>
-                    <li>
-                        <span>50</span>
-                        <p>Наград за отличный сервис</p>
-                    </li>
-                    <li>
-                        <span>20</span>
-                        <p>Лучших мастеров Киева</p>
-                    </li>
-                    <li>
-                        <span>100</span>
-                        <p>Подарков постоянным клиентам</p>
-                    </li>
-                </ul>
-                <p>Старая традиционная школа</p>
-                <h2>Почему приходят именно к нам?</h2>
-                <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
-            </section>
-            <!-- Наши мастера -->
-            <section>
-                <p>для настоящих ценителей атмосферы</p>
-                <h2>Наши мастера</h2>
-                    <ul>
-                        <li>
-                            <img src="./img/img12-min.jpg" 
-                                alt="Барбер бреет затылок" 
-                                width="370" 
-                                height="346"
-                            />
-                            <h3 lang="en">John Smith</h3>
-                            <p lang="en">Extreme Barber</p>
-                        </li>
-                        <li>
-                            <img src="./img/img22-min.jpg" 
-                                alt="Барбер делает пробор"
-                                width="370" 
-                                height="346"
-                            />
-                            <h3 lang="en">Michele Doe</h3>
-                            <p lang="en">Extreme Barber</p>
-                        </li>
-                        <li>
-                            <img src="./img/img32-min.jpg" 
-                                alt="Барбер стрежет челку"
-                                width="370" 
-                                height="346"
-                            />
-                            <h3 lang="en">Alan Black</h3>
-                            <p lang="en">Extreme Barber</p>
-                        </li>
-                </ul>
-            </section>
-
+            <ul class="prices-list">
+                <li class="prices-item">
+                    <p class="price-item-text">Cтрижка у стажера</p>
+                    <p class="price-item-text">от 50 грн.</p>
+                </li>
+                <li class="prices-item">
+                    <p class="price-item-text">Стрижка под насадку</p>
+                    <p class="price-item-text">от 200 грн.</p>
+                </li>
+                <li class="prices-item">
+                    <p class="price-item-text">Детская стрижка (до 12 лет)</p>
+                    <p class="price-item-text">от 300 грн.</p>
+                </li>
+                <li class="prices-item">
+                    <p class="price-item-text">Камуфлирование седины</p>
+                    <p class="price-item-text">от 200 грн.</p>
+                </li>
+            </ul>
+            <button type="button" class="price-btn">онлайн-запись</button>
         </section>
-        <section>
-            
+            <!-- Почему приходят именно к нам? -->
+        <section class="benefits">
+            <ul class="benefits-list">
+                <li class="benefits-item">
+                    <span class="benefits-item-count">600</span>
+                    <p class="benefits-item-text">Довольных клиентов в день</p>
+                </li>
+                 <li class="benefits-item">
+                    <span class="benefits-item-count">50</span>
+                    <p class="benefits-item-text">Наград за отличный сервис</p>
+                </li>
+                <li class="benefits-item">
+                    <span class="benefits-item-count">20</span>
+                    <p class="benefits-item-text">Лучших мастеров Киева</p>
+                </li>
+                <li class="benefits-item">
+                    <span class="benefits-item-count">100</span>
+                    <p class="benefits-item-text">Подарков постоянным клиентам</p>
+                </li>
+            </ul>
+                <p class="benefits-top-text">Старая традиционная школа</p>
+                <h2 class="benefits-title">Почему приходят именно к нам?</h2>
+                <p class="benefits-bottom-text">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
+        </section>
+            <!-- Наши мастера -->
+        <section class="masters">
+            <p>для настоящих ценителей атмосферы</p>
+            <h2>Наши мастера</h2>
+            <ul>
+                <li>
+                    <img src="./img/img12-min.jpg" 
+                         alt="Барбер бреет затылок" 
+                         width="370" 
+                         height="346"
+                    />
+                    <h3 lang="en">John Smith</h3>
+                    <p lang="en">Extreme Barber</p>
+                </li>
+                <li>
+                    <img src="./img/img22-min.jpg" 
+                         alt="Барбер делает пробор"
+                         width="370" 
+                         height="346"
+                    />
+                    <h3 lang="en">Michele Doe</h3>
+                    <p lang="en">Extreme Barber</p>
+                </li>
+                <li>
+                    <img src="./img/img32-min.jpg" 
+                         alt="Барбер стрежет челку"
+                         width="370" 
+                         height="346"
+                    />
+                    <h3 lang="en">Alan Black</h3>
+                    <p lang="en">Extreme Barber</p>
+                 </li>
+             </ul>
+        </section>
+        <section class="gallery">
+            <p>На латинском языке “барба” означает “борода”</p>
+            <h2>Галерея</h2>
+            <ul>
+                <li><img src="./img/gallery/gallery1.jpg" alt=""></li>
+                <li><img src="./img/gallery/gallery2.jpg" alt=""></li>
+                <li><img src="./img/gallery/gallery3.jpg" alt=""></li>
+                <li><img src="./img/gallery/gallery4.jpg" alt=""></li>
+            </ul>
+        </section>
+        <section class="online">
+            <h2>Онлайн-запись</h2>
+        </section>
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <address>
+                <ul>
+                    <li><a href="">ул. Васильковая, 7А Киев, 08132</a></li>
+                    <li><a href=""></a>+38 044 111 11 11</li>
+                    <li><a href=""></a>barbershop@email.com</li>
+                </ul>
+            </address>
         </section>
 
     </main>
+    <footer class="footer">
+        <p class="footer-copy">Copyright 2020</p>
+        <ul>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Youtube</a></li>
+        </ul>
+    </footer>
 </body>
 </html> 
